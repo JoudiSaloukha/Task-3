@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.w-100{
+    width: 100%;
+}
+.navs{
+    justify-content: space-around;
+    position: fixed;
+    flex-wrap: nowrap;
+    height: 60px;
+    background-color: #2C3E50;
+
+}
+.bg-color-green{
+    background-color: #1ABC9C;
+}
+.color-white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.border-radius-50{
+    border-radius: 50%;
+}
+header nav{
+    display: flex;
+    z-index: 3;
+}
+header nav h1,header .nav2 h1{
+    margin-top: 10px;
+}
+header .nav2{
+    display: none;
+}
+header .nav2 i {
+    margin-top: 20px;
+}
+header nav ul{
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-align: center; 
+    padding: 23px 20px; 
+    
+}
+nav li a:hover  {
+    background-color: lightgray; 
+}
+
+header .hero{
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .hero .img-bg {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  
+}
+
+
+header .hero .img-bg img {
+    position: relative;
+    width: 300px;
+    z-index: 2;
+    
+    
+}
+
+header .hero  h1{
+    font-size: 40px;
+   
+}
+.shapes .shape{
+    width: 120px;
+    height: 3px;
+    border-radius: 30px;
+    margin-top: 7px;
+}
+.shapes{
+    display: flex;
+    gap: 10px;
+}
+header .hero  .shapes .fa-star{
+    transform: scale(1.5);
+}
+header .hero  p{
+    font-size: 15px;
+}
+
+main .portfolio .text .shapes .shape ,main .contact .text .shapes .shape{
+    background-color: black;
+}
+main .portfolio .text h1 , main .contact .text h1{
+    font-size: 50px;
+}
+main .portfolio .text , main .contact .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+main .portfolio .boxs .circle{
+    width:130px;
+    height: 130px;
+}
+main .portfolio  .boxs .box{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .portfolio .boxs .box img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+main .portfolio .boxs .box1{
+  background-color: #BA4C63;
+}
+main .portfolio .boxs .box2{
+    background-color: #1FA4B6;
+ }
+main .portfolio .boxs .box3{
+    background-color: #130F0F;
+}
+main .portfolio .boxs .box4{
+    background-color: #1D83C1;
+}
+main .portfolio .boxs .box5{
+    background-color: #1037B5;
+}
+main .portfolio .boxs .box6{
+    background-color: #CCB2A3;
+}
+main .portfolio .boxs .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .portfolio .boxs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+main .about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+main .about .text1 h1{
+    font-size: 40px;
+    margin: 20px 0px;
+   
+}
+main .about .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+main .about .paragraph p{
+    width: 500px;
+    line-height: 2;
+}
+main .about .paragraph{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+}
+main .about button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 40px 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+main .contact .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:50px;
+    
+}
+main .contact .inputs input, main .contact .inputs textarea{
+    border: 0px;
+    border-bottom: 1px solid lightgray;
+    width: 500px;
+}
+
+main .contact .btn{
+    width: 100px;
+    height: 50px;
+    padding: 5px 5px;
+    border: 0px;
+    border-radius: 5px;
+    position: relative;
+    right: 200px;
+    cursor: pointer;
+}
+
+footer .first-footer{
+    background-color: #2B3E50;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+footer .first-footer .f-part3 p a{
+    color: #1ABC9C;
+}
+footer .first-footer h1{
+    font-size: 25px;
+}
+footer .first-footer p{
+    font-size: 13px;
+}
+
+
+footer .first-footer .f-part1,footer .f-part2,footer .f-part3{
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    line-height: 2;
+}
+
+footer .first-footer .f-part2 .link a i{
+    padding: 5px;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+}
+footer .last-footer{
+    background-color: #18252F;
+    padding: 15px;
+}
+
+footer .last-footer p{
+    font-size: 10px;
+    text-align: center;
+}
+@media (max-width : 600px ){
+    header nav{
+        display: none;
+    }
+    header .nav2{
+        display: flex;
+    }
+    header .hero h1{
+        font-size: 30px;
+    }
+    header .hero p{
+        font-size: 12px;
+    }
+    header .hero  img{
+        width: 250px;
+    }
+    main .about .paragraph p{
+        padding: 0px 80px;
+    }
+ 
+
+    main .portfolio .text h1 , main .contact .text h1{
+        font-size: 35px;
+    }
+    main .portfolio .text .shapes .shape ,main .contact .text .shapes .shape{
+        width: 100px;
+    }
+    footer h1{
+        font-size: 17px;
+    }
+    footer p{
+        font-size: 9px;
+    }
+
+}
+@media (max-width : 549px ){
+    main .contact .inputs input ,main .contact .inputs textarea {
+        width: 350px;
+    }
+    main .contact .btn{
+        width: 70px;
+        height: 30px;
+        position: relative;
+        right: 140px;
+    }
+}
+
